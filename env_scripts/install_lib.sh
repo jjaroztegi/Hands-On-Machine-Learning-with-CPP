@@ -19,7 +19,7 @@ if [ "$REPOSITORY" = "https://gitlab.com/conradsnicta/armadillo-code" ] && [ "$C
     unzip "$ZIP_FILE"
     rm "$ZIP_FILE"
     cd "$DIR_NAME"
-elif [ "$REPOSITORY" = "https://github.com/mlpack/mlpack.git" ] && [ "$COMMIT_HASH" = "e2f696cfd5b7ccda2d3af1c7c728483ea6591718" ]; then
+elif [ "$REPOSITORY" = "https://github.com/mlpack/mlpack" ] && [ "$COMMIT_HASH" = "e2f696cfd5b7ccda2d3af1c7c728483ea6591718" ]; then
     ENSMALLEN_URL="https://www.ensmallen.org/files/ensmallen-1.10.0.tar.gz"
     ENSMALLEN_FILE="ensmallen-1.10.0.tar.gz"
     ENSMALLEN_DIR="ensmallen-1.10.0"
